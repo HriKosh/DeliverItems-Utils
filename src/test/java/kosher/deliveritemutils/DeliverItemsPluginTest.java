@@ -1,13 +1,13 @@
-package com.example;
+package kosher.deliveritemutils;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class DeliverItemsPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(DeliverItemsPlugin.class);
 		RuneLite.main(args);
 	}
 }
